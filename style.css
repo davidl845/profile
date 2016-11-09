@@ -1,1 +1,70 @@
+html { height: 100%;}
 
+body { background-color: #e5e5e5;}
+
+h1{font-size: 24px;
+font-family: 'Anton', sans-serif;
+letter-spacing: 1px;}
+
+h2{ font-size: 22px;
+font-family: 'Indie Flower', cursive; }
+
+h3{font-size: 16px;}
+
+h3, p{font-family: 'Open Sans', sans-serif;}
+
+a{
+  color: #CCC;
+  text-decoration: none;}
+
+a.facebook:hover { color: #3B5998; }
+
+a.linkedin:hover { color: #0177B5; }
+
+a.twitter:hover { color: #1DA1F2; }
+
+a.lewagon { color: #D23333; }
+
+.container{
+  width: 500px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+img.myfacedebouc {
+    width: 100px;
+    border-radius: 75px;
+    border: solid 4px #DCDCDC;
+}
+.card{
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 9px 0px rgba(0, 0, 0, 0.3);
+}
+
+.list {
+  padding-left: 0;
+}
+
+.list li {
+  display: inline-block;
+  padding: 20px;
+}
+.list li i{
+  font-size: 25px;
+}
+
+#series{
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+#series img{
+  width: 80px;
+  border: solid 2px #DCDCDC;
+}
+#series td{
+  padding: 10px;
+}
